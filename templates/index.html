@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"> <!--para las eñes y los acentos-->
+	<title>Document</title>
+</head>
+<body>
+	<h1>Bienvenido al template de Translate</h1>
+	{% for elemento in data %}
+		<p>{{elemento}}</p>
+	{% endfor %}
+	<!-- <p>{{data["name"]}}</p> data es el nombre que yo le pongo en views como segundo elemento. lo que pongo entre los corchetes es el valor de data
+	{% if data["name"] == "Elena"  %}
+		<p>{{data["aka"]}}</p>
+	{%else%}
+		<p>Hola nuevo amigo</p>
+	{% endif %}-->
+</body>
+</html>
